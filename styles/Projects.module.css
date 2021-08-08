@@ -124,9 +124,9 @@
   text-align: center;
   border: 1px solid #eaeaea;
   border-radius: 10px;
-  width: 70vw;
   background: #efc7d0;
   overflow-y: auto;
+  width: 500px;
 }
 
 .card h2 {

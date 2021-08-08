@@ -44,9 +44,9 @@ export default function Home() {
           Constance Ingram
         </h1>
         <div className={styles.buttonbar}>
-          <a href="https://www.linkedin.com/in/constance-ingram-7aa067161/" target="_blank"><LinkedInIcon fontSize="large" className={styles.icon}></LinkedInIcon></a>
-          <a href="https://github.com/ccingram94" target="_blank"><GitHubIcon fontSize="large" className={styles.icon}></GitHubIcon></a>
-          <a href="/contact" target="_blank"><EmailIcon fontSize="large" className={styles.icon}></EmailIcon></a>
+          <Link href="https://www.linkedin.com/in/constance-ingram-7aa067161/"><LinkedInIcon fontSize="large" className={styles.icon}></LinkedInIcon></Link>
+          <Link href="https://github.com/ccingram94"><GitHubIcon fontSize="large" className={styles.icon}></GitHubIcon></Link>
+          <Link href="/contact"><EmailIcon fontSize="large" className={styles.icon}></EmailIcon></Link>
         </div>
         <h2>
           Austin, TX

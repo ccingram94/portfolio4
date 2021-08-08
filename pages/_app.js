@@ -3,7 +3,11 @@ import { motion } from 'framer-motion'
 
 function MyApp({ Component, pageProps }) {
   return (
-      <motion.div initial="pageInitial" animate="pageAnimate" variants={{ pageInitial: { opacity: 0}, pageAnimate: { opacity: 1 }, }}>
+      <motion.div id="background" 
+      initial={{ opacity: 0}} 
+      animate={{ opacity: 1 }} 
+      exit={{ oapcity: 0 }}
+      transition={{ duration: 0.2}}>
         <Component {...pageProps} />
       </motion.div>
 
