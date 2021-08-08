@@ -27,6 +27,7 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
   font-family: 'Montserrat';
+  /* text-shadow: 0 0 2px white; */
 }
 
 h2 {

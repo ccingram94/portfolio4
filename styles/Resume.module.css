@@ -7,10 +7,17 @@
   margin: 10px; 
 }
 
-.resumeheader {
-  border-bottom: 1px dotted #efc7d0;
+.pagecard {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  background: #efc7d0;
+  overflow-y: auto;
+  height: 80vh;
+  width: 80vw;
 }
-
 
 .container {
   min-height: 100vh;
@@ -111,16 +118,6 @@
   border-color: #0070f3;
 }
 
-.pagecard {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: center;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  width: 70vw;
-  background: #efc7d0;
-  overflow-y: auto;
-}
 
 .card h2 {
   margin: 0 0 1rem 0;

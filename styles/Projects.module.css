@@ -11,6 +11,13 @@
   border-bottom: 1px dotted #efc7d0;
 }
 
+.flexdisplay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
 .container {
   min-height: 100vh;
