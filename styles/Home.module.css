@@ -1,3 +1,12 @@
+.buttonbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  margin: 10px; 
+}
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
