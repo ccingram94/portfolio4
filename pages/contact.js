@@ -35,7 +35,7 @@ export default function Contact() {
 
       <main className={styles.main}>
           <div className={styles.buttonbar}>
-            <a href="/"><ArrowBackIosIcon fontSize="large" className={styles.icon}></ArrowBackIosIcon></a>
+            <Link href="/"><ArrowBackIosIcon fontSize="large" className={styles.icon}></ArrowBackIosIcon></Link>
             <h1 className={styles.title}> Contact </h1>
           </div>
       </main>

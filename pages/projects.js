@@ -36,7 +36,7 @@ export default function Projects() {
 
       <main className={styles.main}>
           <div className={styles.buttonbar}>
-            <a href="/"><ArrowBackIosIcon fontSize="large" className={styles.icon}></ArrowBackIosIcon></a>
+            <Link href="/"><ArrowBackIosIcon fontSize="large" className={styles.icon}></ArrowBackIosIcon></Link>
             <h1 className={styles.title}> Projects </h1>
           </div>
           <div className={styles.flexdisplay}>
@@ -55,9 +55,9 @@ export default function Projects() {
             <Card className={styles.pagecard}>
               <h2>React Tic-Tac-Toe</h2>
               <p>React || Cute CSS</p>
-              <a href="https://fierce-meadow-07282.herokuapp.com/" target="_blank">
+              <Link href="https://fierce-meadow-07282.herokuapp.com/">
                 <Button className={classes.button}> Live Demo 📚 </Button>
-              </a>
+              </Link>
             </Card>
           </div>
       </main>
