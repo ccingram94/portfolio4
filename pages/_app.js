@@ -1,12 +1,11 @@
 import '../styles/globals.css'
-import { AnimatePresence } from 'framer-motion'
-import Layout from '../components/Layout'
+import { motion } from 'framer-motion'
 
 function MyApp({ Component, pageProps }) {
   return (
-      <AnimatePresence exitBeforeEnter>
+      <motion.div initial="pageInitial" animate="pageAnimate" variants={{ pageInitial: { opacity: 0}, pageAnimate: { opacity: 1 }, }}>
         <Component {...pageProps} />
-      </AnimatePresence>
+      </motion.div>
 
   )
 }

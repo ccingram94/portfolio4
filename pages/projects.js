@@ -55,7 +55,9 @@ export default function Projects() {
             <Card className={styles.pagecard}>
               <h2>React Tic-Tac-Toe</h2>
               <p>React || Cute CSS</p>
-              <Button className={classes.button}> Live Demo 📚 </Button>
+              <a href="https://fierce-meadow-07282.herokuapp.com/" target="_blank">
+                <Button className={classes.button}> Live Demo 📚 </Button>
+              </a>
             </Card>
           </div>
       </main>

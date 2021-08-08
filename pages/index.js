@@ -8,6 +8,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import EmailIcon from '@material-ui/icons/Email'
 import GitHub from '@material-ui/icons/GitHub'
+import { motion } from 'framer-motion'
 
 const useStyles = makeStyles({
     button: {
@@ -29,6 +30,7 @@ export default function Home() {
   const classes = useStyles();
 
 
+
   return (
     <div className={styles.container}>
       <Head>
@@ -37,7 +39,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <motion.main className={styles.main}>
         <h1 className={styles.title}>
           Constance Ingram
         </h1>
@@ -54,7 +56,7 @@ export default function Home() {
         <Button href="/projects" className={classes.button}>Projects</Button>
         <Button href="/contact" className={classes.button}>Contact</Button>
         </div>
-      </main>
+      </motion.main>
       <footer>
       </footer>
     </div>
