@@ -66,6 +66,7 @@ export default function Contact() {
                           >
                             <Card>
                               <p style={{ margin: 40}}>Feel free to email me directly: </p>
+                              <p style={{ margin: 40 }}>ConstanceIngram94@gmail.com</p>
                             </Card>
                           </motion.div>
                       )}
