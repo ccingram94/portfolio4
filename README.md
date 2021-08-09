@@ -5,3 +5,5 @@ This is a [Next.js](https://nextjs.org/) portfolio website bootstrapped with [`c
  ⭐️ Material UI
 
  ✌️ Framer Motion
+
+ 💌 Nodemailer for the contact form
