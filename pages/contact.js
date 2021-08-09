@@ -5,6 +5,9 @@ import styles from '../styles/Home.module.css'
 import { makeStyles } from '@material-ui/core/styles'
 import Button from '@material-ui/core/Button'
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos'
+import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import GitHubIcon from '@material-ui/icons/GitHub'
+import EmailIcon from '@material-ui/icons/Email'
 
 const useStyles = makeStyles({
     button: {
@@ -37,6 +40,11 @@ export default function Contact() {
           <div className={styles.buttonbar}>
             <Link href="/"><ArrowBackIosIcon fontSize="large" className={styles.icon}></ArrowBackIosIcon></Link>
             <h1 className={styles.title}> Contact </h1>
+          </div>
+          <div className={styles.buttonbar}>
+            <LinkedInIcon className={styles.icon} fontSize="large"></LinkedInIcon>
+            <GitHubIcon className={styles.icon} fontSize="large"></GitHubIcon>
+            <EmailIcon className={styles.icon} fontSize="large"></EmailIcon>
           </div>
       </main>
       <footer>
