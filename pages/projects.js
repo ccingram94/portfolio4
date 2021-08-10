@@ -44,7 +44,9 @@ export default function Projects() {
               <h2>Aliens News</h2>
               <p>Next.js (React) || NewsAPI || Material-UI</p>
               <p><i>React webapp fetching JSON objects from NewsAPI and returning top headlines related to UFOs and extraterrestrials.</i></p>
-              <Button className={classes.button}>Live Demo 🛸</Button>
+              <Link href="https://aliensnewsapp.vercel.app/">
+                <Button className={classes.button}> Live Demo 👽 </Button>
+              </Link>
             </Card>
             <Card className={styles.pagecard}>
               <h2>Giotto Tarot</h2>
