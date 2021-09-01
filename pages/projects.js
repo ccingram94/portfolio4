@@ -52,7 +52,9 @@ export default function Projects() {
               <h2>Giotto Tarot</h2>
               <p>Next.js (React) || PostgreSQL || Next-Auth || Prisma || Framer Motion </p>
               <p><i>Tarot application featuring animation with Framer Motion, user authentication with Next-Auth, artwork from the early Renaissance master Giotto, and a PostgreSQL database wrapped with Prisma ORM.</i></p>
-              <Button className={classes.button}>Live Demo 🎴 </Button>
+              <Link href="https://aliensnewsapp.vercel.app/" target="_blank">
+                <Button className={classes.button}> Live Demo 🎴 </Button>
+              </Link>
             </Card>
             <Card className={styles.pagecard}>
               <h2>React Tic-Tac-Toe</h2>
