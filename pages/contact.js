@@ -10,6 +10,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import EmailIcon from '@material-ui/icons/Email'
 import Card from '@material-ui/core/Card'
+import ContactForm from '../components/ContactForm'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const useStyles = makeStyles({
@@ -66,7 +67,7 @@ export default function Contact() {
                           >
                             <Card>
                               <p style={{ margin: 40}}>Feel free to email me directly: </p>
-                              <p style={{ margin: 40 }}>ConstanceIngram94@gmail.com</p>
+                              <ContactForm></ContactForm>
                             </Card>
                           </motion.div>
                       )}

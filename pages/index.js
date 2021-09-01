@@ -29,8 +29,6 @@ export default function Home() {
 
   const classes = useStyles();
 
-
-
   return (
     <div className={styles.container}>
       <Head>
@@ -52,9 +50,9 @@ export default function Home() {
           Austin, TX
         </h2>
         <div className={styles.buttonbar}>
-        <Button href="/resume" className={classes.button}>Resume</Button>
-        <Button href="/projects" className={classes.button}>Projects</Button>
-        <Button href="/contact" className={classes.button}>Contact</Button>
+        <Link href="/resume"><Button className={classes.button}>Resume</Button></Link>
+        <Link href="/projects"><Button className={classes.button}>Projects</Button></Link>
+        <Link href="/contact"><Button className={classes.button}>Contact</Button></Link>
         </div>
       </motion.main>
       <footer>
