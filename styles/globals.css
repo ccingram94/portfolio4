@@ -12,6 +12,9 @@ body {
   background-blend-mode: multiply;
   background-color: #EFC7D0;
   color: #EFC7D0;
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 a {
