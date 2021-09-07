@@ -41,19 +41,19 @@ export default function Projects() {
           </div>
           <div className={styles.flexdisplay}>
             <Card className={styles.pagecard}>
-              <h2>Aliens News</h2>
-              <p>Next.js (React) || NewsAPI || Material-UI</p>
-              <p><i>React webapp fetching JSON objects from NewsAPI and returning top headlines related to UFOs and extraterrestrials.</i></p>
-              <Link href="https://aliensnewsapp.vercel.app/" target="_blank">
-                <Button className={classes.button}> Live Demo 👽 </Button>
-              </Link>
-            </Card>
-            <Card className={styles.pagecard}>
               <h2>Giotto Tarot</h2>
               <p>Next.js (React) || PostgreSQL || Next-Auth || Prisma || Framer Motion </p>
               <p><i>Tarot application featuring animation with Framer Motion, user authentication with Next-Auth, artwork from the early Renaissance master Giotto, and a PostgreSQL database wrapped with Prisma ORM.</i></p>
               <Link href="https://giottotarotapp.vercel.app/" target="_blank">
                 <Button className={classes.button}> Live Demo 🎴 </Button>
+              </Link>
+            </Card>
+            <Card className={styles.pagecard}>
+              <h2>Aliens News</h2>
+              <p>Next.js (React) || NewsAPI || Material-UI</p>
+              <p><i>React webapp fetching JSON objects from NewsAPI and returning top headlines related to UFOs and extraterrestrials.</i></p>
+              <Link href="https://aliensnewsapp.vercel.app/" target="_blank">
+                <Button className={classes.button}> Live Demo 👽 </Button>
               </Link>
             </Card>
             <Card className={styles.pagecard}>
