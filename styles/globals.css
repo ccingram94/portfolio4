@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: 'Playfair+Display', 'Montserrat', sans-serif;
   background-image: url(../public/background.jpg), linear-gradient(#efc7d0, #5C4294);
+  background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; 
