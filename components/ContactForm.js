@@ -12,15 +12,7 @@ export default function ContactForm() {
     const [body, setBody] = useState('');
 
     const handleSubmit = (e) => {
-        console.log(email)
-        console.log(title)
-        console.log(body)
         e.preventDefault();
-        let data = {
-            email,
-            title,
-            body,
-        }
     }
 
     return (
