@@ -7,7 +7,7 @@ body {
   font-family: 'Playfair+Display', 'Montserrat', sans-serif;
   background-image: url(../public/background.jpg), linear-gradient(#efc7d0, #5C4294);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat; 
   background-blend-mode: multiply;
   background-color: #EFC7D0;

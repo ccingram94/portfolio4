@@ -22,7 +22,6 @@
 .container {
   min-height: 100vh;
   top: 0;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,7 +126,6 @@
   border-radius: 10px;
   background: #efc7d0;
   overflow-y: auto;
-  width: 500px;
 }
 
 .card h2 {
