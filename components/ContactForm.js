@@ -3,8 +3,6 @@ import Button from '@material-ui/core/Button'
 import { useState } from 'react';
 import { StylesContext } from '@material-ui/styles';
 import styles from '../styles/ContactForm.module.css'
-import router from 'next/router'
-import axios from 'axios'
 
 export default function ContactForm() {
     const [email, setEmail] = useState('');
@@ -17,7 +15,7 @@ export default function ContactForm() {
 
     return (
         <div className={styles.displaycolumn}>
-            <form onSubmit={(e) => {handleSubmit(e)}}>
+            <form onSubmit={(e) => handleSubmit(e)}>
                 <div className={styles.textfield}>
                     <TextField name="email" onChange={(e) => setEmail(e.target.value)} variant="outlined" label="Your Email" size="small"></TextField>
                 </div>
@@ -27,7 +25,7 @@ export default function ContactForm() {
                 <div className={styles.textfield}>
                     <TextField name="body" onChange={(e) => setBody(e.target.value)} variant="outlined" label="Message Body" size="medium"></TextField>
                 </div>
-                <Button onClick={(e) => {handleSubmit(e)}}>Submit</Button>
+                <Button onClick={(e) => handleSubmit(e)}>Submit</Button>
             </form>
         </div>
     )
