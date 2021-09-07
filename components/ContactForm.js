@@ -3,6 +3,8 @@ import Button from '@material-ui/core/Button'
 import { useState } from 'react';
 import { StylesContext } from '@material-ui/styles';
 import styles from '../styles/ContactForm.module.css'
+import router from 'next/router'
+import axios from 'axios'
 
 export default function ContactForm() {
     const [email, setEmail] = useState('');
@@ -10,12 +12,25 @@ export default function ContactForm() {
     const [body, setBody] = useState('');
 
     const handleSubmit = (e) => {
+        console.log(email)
+        console.log(title)
+        console.log(body)
         e.preventDefault();
+        let data = {
+            email,
+            title,
+            body,
+        }
+        axios({
+            method: 'POST',
+            url: "/api/contact",
+            data: data,
+        }).then(router.push('/api/contact'))
     }
 
     return (
         <div className={styles.displaycolumn}>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={(e) => {handleSubmit(e)}}>
                 <div className={styles.textfield}>
                     <TextField name="email" onChange={(e) => setEmail(e.target.value)} variant="outlined" label="Your Email" size="small"></TextField>
                 </div>
@@ -23,9 +38,9 @@ export default function ContactForm() {
                     <TextField name="title" onChange={(e) => setTitle(e.target.value)} variant="outlined" label="Message Title" size="small"></TextField>
                 </div>
                 <div className={styles.textfield}>
-                    <TextField name="body" onChange={(e) => setBody(e.target.value)} variant="outlined" label="Message Body" size="large"></TextField>
+                    <TextField name="body" onChange={(e) => setBody(e.target.value)} variant="outlined" label="Message Body" size="medium"></TextField>
                 </div>
-                <Button onClick={handleSubmit}>Submit</Button>
+                <Button onClick={(e) => {handleSubmit(e)}}>Submit</Button>
             </form>
         </div>
     )
