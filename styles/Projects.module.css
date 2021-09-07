@@ -126,6 +126,7 @@
   border-radius: 10px;
   background: #efc7d0;
   overflow-y: auto;
+  max-width: 80vw;
 }
 
 .card h2 {
