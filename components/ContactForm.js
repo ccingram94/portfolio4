@@ -21,11 +21,6 @@ export default function ContactForm() {
             title,
             body,
         }
-        axios({
-            method: 'POST',
-            url: "/api/contact",
-            data: data,
-        }).then(router.push('/api/contact'))
     }
 
     return (
