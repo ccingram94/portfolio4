@@ -19,6 +19,11 @@
   justify-content: center;
 }
 
+.flexitems {
+  padding: 10px;
+  margin: 10px;
+}
+
 .container {
   min-height: 100vh;
   top: 0;

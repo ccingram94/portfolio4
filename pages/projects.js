@@ -6,6 +6,9 @@ import { makeStyles } from '@material-ui/core/styles'
 import Button from '@material-ui/core/Button'
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos'
 import Card from '@material-ui/core/Card'
+import screenshot1 from '../public/screenshot1.png'
+import screenshot2 from '../public/screenshot2.png'
+import screenshot3 from '../public/screenshot3.png'
 
 const useStyles = makeStyles({
     button: {
@@ -47,6 +50,11 @@ export default function Projects() {
               <Link href="https://giottotarotapp.vercel.app/" target="_blank">
                 <Button className={classes.button}> Live Demo 🎴 </Button>
               </Link>
+              <div className={styles.flexdisplay}>
+              <Image src={screenshot1} height={200} width={300} className={styles.flexitems}></Image>
+              <Image src={screenshot2} height={200} width={300} className={styles.flexitems}></Image>
+              <Image src={screenshot3} height={200} width={300} className={styles.flexitems}></Image>
+              </div>
             </Card>
             <Card className={styles.pagecard}>
               <h2>Aliens News</h2>
