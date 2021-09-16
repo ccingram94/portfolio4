@@ -44,6 +44,7 @@ export default function Projects() {
           </div>
           <div className={styles.flexdisplay}>
             <Card className={styles.pagecard}>
+              
               <h2>Giotto Tarot</h2>
               <p>Next.js (React) || PostgreSQL || Next-Auth || Prisma || Framer Motion </p>
               <p><i>Tarot application featuring animation with Framer Motion, user authentication with Next-Auth, artwork from the early Renaissance master Giotto, and a PostgreSQL database wrapped with Prisma ORM.  React Context API holds user questions in state across components.  PostgreSQL database persists user accounts and saved readings. </i></p>

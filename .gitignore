@@ -34,4 +34,4 @@ yarn-error.log*
 .vercel
 
 # mac
-.DS_Store
+.DS_Storesendgrid.env
