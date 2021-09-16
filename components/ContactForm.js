@@ -14,8 +14,9 @@ export default function ContactForm() {
     const [message, setMessage] = useState('');
 
 
-    const handleSubmit = ( e, email, title, message ) => {
+    const handleSubmit = ( e ) => {
         e.preventDefault(); 
+        console.log(email, subject, message);
     }
 
 
